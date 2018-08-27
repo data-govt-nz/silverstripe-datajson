@@ -1,0 +1,7 @@
+---
+Name: datajson
+After: framework/routes#coreroutes
+---
+Director:
+  rules:
+    'data.json': 'DataJSONController'

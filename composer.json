@@ -1,0 +1,19 @@
+{
+	"name": "data-govt-nz/silverstripe-datajson",
+	"type": "silverstripe-module",
+	"description": "Stores dataset records inside SilverStripe and makes them accessible via the data.json DCAT JSON standard",
+	"license": "BSD-3-Clause",
+    "keywords": ["dcat", "json", "harvesting", "data"],
+    "authors": [
+        {
+            "name": "data.govt.nz",
+            "email": "info@data.govt.nz"
+        }
+        ],
+	"require": {
+        "silverstripe/framework": "^3.4"
+    },
+    "extra": {
+		"installer-name": "datajson",
+	}
+}
